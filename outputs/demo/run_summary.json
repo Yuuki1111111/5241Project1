@@ -1,0 +1,29 @@
+{
+  "input_mode": "demo",
+  "ts_code": "300476.SZ",
+  "start_date": "2019-01-01",
+  "end_date": "2024-05-13",
+  "raw_rows": 1400,
+  "model_rows": 1379,
+  "folds": 5,
+  "average_metrics": [
+    {
+      "metric": "rmse",
+      "random_forest_mean": 0.7406354188317652,
+      "naive_mean": 0.5462119001266862,
+      "linear_mean": 0.5897606517136968
+    },
+    {
+      "metric": "mae",
+      "random_forest_mean": 0.5575345061762971,
+      "naive_mean": 0.4359656350795357,
+      "linear_mean": 0.477793670230285
+    },
+    {
+      "metric": "mape",
+      "random_forest_mean": 2.509402485464627,
+      "naive_mean": 2.0254608562923737,
+      "linear_mean": 2.200444861441681
+    }
+  ]
+}

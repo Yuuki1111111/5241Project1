@@ -1,0 +1,29 @@
+{
+  "input_mode": "tushare",
+  "ts_code": "300476.SZ",
+  "start_date": "2018-01-02",
+  "end_date": "2026-02-27",
+  "raw_rows": 1976,
+  "model_rows": 1955,
+  "folds": 5,
+  "average_metrics": [
+    {
+      "metric": "rmse",
+      "random_forest_mean": 0.8102396557311161,
+      "naive_mean": 0.5423910278908328,
+      "linear_mean": 0.8891760640908115
+    },
+    {
+      "metric": "mae",
+      "random_forest_mean": 0.6166768460133698,
+      "naive_mean": 0.39739682539682536,
+      "linear_mean": 0.6839626570341732
+    },
+    {
+      "metric": "mape",
+      "random_forest_mean": 3.6223623094431474,
+      "naive_mean": 2.3471125120695024,
+      "linear_mean": 4.2481902557920055
+    }
+  ]
+}
